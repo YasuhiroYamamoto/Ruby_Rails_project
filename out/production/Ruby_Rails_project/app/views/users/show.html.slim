@@ -1,6 +1,11 @@
-%p#notice= notice
+.container-fluid
+  .row
+    .col-lg-10#users-content
+      .user-info
+        span.user-name
+          = @user.name
 
+        span.user-id  @#{@user.name}
 
-= link_to 'Edit', edit_user_path(@user)
-\|
-= link_to 'Back', users_path
+        .bio
+          = @user.bio

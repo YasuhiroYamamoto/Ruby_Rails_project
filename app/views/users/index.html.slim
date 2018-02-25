@@ -1,19 +1,35 @@
-%h1 Listing users
+.container-fluid
+  .row
+    .col-lg-10#users-content
+      .list-group
+        h2 ユーザー一覧
+        = div_for @users, class: "list-group-item" do |u|
+          .list-group-item.user-list
+          h4.user
+            span.user-name
+              = link_to u.name, user_path(u)
+            span.user-id  @#{u.name}
 
-%table
-  %thead
-    %tr
-      %th
-      %th
-      %th
+          .bio
+          = u.bio
 
-  %tbody
-    - @users.each do |user|
-      %tr
-        %td= link_to 'Show', user
-        %td= link_to 'Edit', edit_user_path(user)
-        %td= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' }
 
-%br
 
-= link_to 'New User', new_user_path
+
+
+
+
+
+
+
+/h1  Listing Users
+/
+/table
+/  thead
+/    tr
+/      th
+/
+/  tbody
+/    - @users.each do |user|
+/      tr
+/        td= link_to  user.name ,user
