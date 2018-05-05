@@ -1,0 +1,11 @@
+doctype html
+head
+  title DemoSite settings
+  = stylesheet_link_tag 'settings', :debug => true , media: 'all', 'data-turbolinks-track': 'reload'
+  = javascript_include_tag 'application', :debug => true , 'data-turbolinks-track': 'reload'
+  = csrf_meta_tags
+body
+  meta charset="utf-8"
+  = render partial: "layouts/header"
+  #settings
+    = yield

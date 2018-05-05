@@ -8,5 +8,7 @@ Rails.application.routes.draw do
 
   resources :users, only: [:index, :show]
 
+  resources :tweets
+
   root to: "top#index"
 end

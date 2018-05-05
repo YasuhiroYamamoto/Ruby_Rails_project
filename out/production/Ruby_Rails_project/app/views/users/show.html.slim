@@ -2,8 +2,10 @@
   .row
     .col-lg-10#users-content
       .user-info
+        - if notice
+          .alert.alert-info= notice
         span.user-name
-          = @user.name
+          = render_user_screen_name( @user )
 
         span.user-id  @#{@user.name}
 

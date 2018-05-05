@@ -6,9 +6,13 @@
     - if logged_in?
       ul.nav.ml-auto
         .navbar-nav.nav-item
+        li= link_to "全ツイート一覧", tweets_path, class: "navbar-right"
+        .navbar-nav.nav-item
         li= link_to "ユーザー一覧", users_path, class: "navbar-right"
         .navbar-nav.nav-item
         li= link_to current_user.name, current_user, class: "navbar-right"
+        .navbar-nav.nav-item
+        li= link_to "設定", edit_settings_path, class: "navbar-right"
         .navbar-nav.nav-item
         li= link_to "ログアウト", sessions_path, method: :delete
 

@@ -1,0 +1,38 @@
+/* line 5, /Users/yamamotoyasuhiro/Documents/workspace/Ruby_Rails_project/app/assets/stylesheets/settings.scss */
+#settings-edit .settings-content {
+  float: none;
+  margin: 0 auto 35px;
+}
+/* line 9, /Users/yamamotoyasuhiro/Documents/workspace/Ruby_Rails_project/app/assets/stylesheets/settings.scss */
+#settings-edit .settings-content form {
+  border: 1px solid #ddd;
+  border-bottom-width: 3px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+/* line 15, /Users/yamamotoyasuhiro/Documents/workspace/Ruby_Rails_project/app/assets/stylesheets/settings.scss */
+#settings-edit .settings-content form h2 {
+  margin: 0px;
+  padding: 12px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* line 24, /Users/yamamotoyasuhiro/Documents/workspace/Ruby_Rails_project/app/assets/stylesheets/settings.scss */
+#settings-edit .settings-content form .form-body {
+  padding: 25px 30px;
+}
+/* line 27, /Users/yamamotoyasuhiro/Documents/workspace/Ruby_Rails_project/app/assets/stylesheets/settings.scss */
+#settings-edit .settings-content form .form-body .control-label {
+  font-weight: 400;
+}
+/* line 31, /Users/yamamotoyasuhiro/Documents/workspace/Ruby_Rails_project/app/assets/stylesheets/settings.scss */
+#settings-edit .settings-content form .form-body textarea {
+  height: 200px;
+}
+/* line 35, /Users/yamamotoyasuhiro/Documents/workspace/Ruby_Rails_project/app/assets/stylesheets/settings.scss */
+#settings-edit .settings-content form .form-body .btn {
+  width: 100%;
+  margin: 10px 0px;
+}
