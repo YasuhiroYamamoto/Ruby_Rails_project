@@ -104,8 +104,8 @@
       <file leaf-file-name="Gemfile.lock" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1973">
-              <caret line="83" column="18" lean-forward="true" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+            <state relative-caret-position="1428">
+              <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -237,8 +237,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2239" />
-    <option name="y" value="68" />
+    <option name="x" value="2272" />
+    <option name="y" value="71" />
     <option name="width" value="1196" />
     <option name="height" value="947" />
   </component>
@@ -531,15 +531,15 @@
       <workItem from="1524396343008" duration="101000" />
       <workItem from="1524396448782" duration="68000" />
       <workItem from="1525509335409" duration="2576000" />
-      <workItem from="1525513900733" duration="2455000" />
+      <workItem from="1525513900733" duration="2744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243603000" />
+    <option name="totallyTimeSpent" value="243892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2239" y="68" width="1196" height="947" extended-state="0" />
+    <frame x="2272" y="71" width="1196" height="947" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -933,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1973">
-          <caret line="83" column="18" lean-forward="true" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+        <state relative-caret-position="1428">
+          <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
         </state>
       </provider>
     </entry>
