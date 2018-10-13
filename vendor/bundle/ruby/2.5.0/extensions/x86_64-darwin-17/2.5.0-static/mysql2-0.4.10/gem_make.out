@@ -1,5 +1,5 @@
 current directory: /Users/yamamotoyasuhiro/Documents/workspace/Ruby_Rails_project/vendor/bundle/ruby/2.5.0/gems/mysql2-0.4.10/ext/mysql2
-/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/bin/ruby -r ./siteconf20180212-19959-1su3fmy.rb extconf.rb
+/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/bin/ruby -r ./siteconf20181013-52776-vpg8zi.rb extconf.rb
 checking for rb_absint_size()... yes
 checking for rb_absint_singlebit_p()... yes
 checking for ruby/thread.h... yes
@@ -23,7 +23,10 @@ checking for MYSQL.net.vio in mysql.h... yes
 checking for MYSQL.net.pvio in mysql.h... no
 checking for MYSQL_ENABLE_CLEARTEXT_PLUGIN in mysql.h... yes
 -----
-Setting rpath to /usr/local/Cellar/mysql/5.7.21/lib
+Don't know how to set rpath on your system, if MySQL libraries are not in path mysql2 may not load
+-----
+-----
+Setting libpath to /usr/local/Cellar/mysql/8.0.12/lib
 -----
 creating Makefile
 
@@ -36,16 +39,10 @@ compiling client.c
 compiling infile.c
 compiling mysql2_ext.c
 compiling result.c
-result.c:326:40: warning: incompatible pointer types assigning to 'my_bool *' (aka 'char *') from 'bool *' [-Wincompatible-pointer-types]
-    wrapper->result_buffers[i].is_null = &wrapper->is_null[i];
-                                       ^ ~~~~~~~~~~~~~~~~~~~~
-result.c:328:40: warning: incompatible pointer types assigning to 'my_bool *' (aka 'char *') from 'bool *' [-Wincompatible-pointer-types]
-    wrapper->result_buffers[i].error   = &wrapper->error[i];
-                                       ^ ~~~~~~~~~~~~~~~~~~
-2 warnings generated.
 compiling statement.c
 linking shared-object mysql2/mysql2.bundle
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mysql2.bundle] Error 1
 
-current directory: /Users/yamamotoyasuhiro/Documents/workspace/Ruby_Rails_project/vendor/bundle/ruby/2.5.0/gems/mysql2-0.4.10/ext/mysql2
-make "DESTDIR=" install
-/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20180212-19959-1h6il2p/mysql2
+make failed, exit code 2

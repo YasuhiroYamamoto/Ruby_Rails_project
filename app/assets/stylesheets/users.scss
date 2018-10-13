@@ -42,10 +42,10 @@
       .list-group {
         margin-top: 10px;
         margin-bottom: -1px;
-        //border: 1px solid #ddd;
         .list-group-item {
           margin-bottom: 0px;
-
+          padding-top: 24px;
+          padding-bottom: 24px;
           &:last-child {
           }
 
@@ -75,17 +75,8 @@
 
   h2 {
     font-size: 25px;
-    height: 30px;
+    height: 40px;
     margin: 10px;
-  }
-
-
-  .user-list {
-    border-top: 0px;
-    border-bottom: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-
   }
 
   .user-info {

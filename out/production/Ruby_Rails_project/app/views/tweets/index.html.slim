@@ -9,19 +9,22 @@
                 span.user-name
                   = render_user_screen_name current_user
                 span.user-id  @#{current_user.name}
-
-              .user-activity
-                .row
-                  .col-lg-4.tweets-num
-                    .text つぶやき
-                    .num
-                      = link_to current_user.tweets.count, user_path(current_user)
-                  .col-lg-4.follow-num
-                    .text フォロー
-                    .num 0
-                  .col-lg-4.follower-num
-                    .text フォロワー
-                    .num 0
+            .user-activity
+              .row
+                .col-lg-4.tweets-num
+                  .text つぶやき
+                  .num
+                    = link_to current_user.tweets.count, user_path(current_user)
+                .col-lg-4.follow-num
+                  .text フォロー
+                  .num 0
+                .col-lg-4.follower-num
+                  .text フォロワー
+                  .num 0
+              = form_for @tweet do |f|
+                .form-group
+                  = f.text_area :content, class: "form-control"
+                  = f.submit "つぶやく", class: "btn btn-success"
       .col-lg-8.right-content
         .list-group
           = div_for @tweets, class: "list-group-item" do |t|

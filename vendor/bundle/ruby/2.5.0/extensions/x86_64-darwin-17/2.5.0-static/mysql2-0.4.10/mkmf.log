@@ -116,7 +116,7 @@ checked program was:
 "clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib     -lruby.2.5.0-static -framework Foundation  -lpthread -ldl -lobjc "
 Undefined symbols for architecture x86_64:
   "_rb_thread_blocking_region", referenced from:
-      _t in conftest-5c4f6f.o
+      _t in conftest-b5510d.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -275,7 +275,7 @@ checked program was:
 
 have_header: checking for mysql.h... -------------------- yes
 
-"clang -E -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
+"clang -E -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -287,7 +287,7 @@ checked program was:
 
 have_header: checking for errmsg.h... -------------------- yes
 
-"clang -E -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
+"clang -E -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -299,7 +299,7 @@ checked program was:
 
 have_const: checking for SSL_MODE_DISABLED in mysql.h... -------------------- yes
 
-"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
+"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -315,7 +315,7 @@ checked program was:
 
 have_const: checking for SSL_MODE_PREFERRED in mysql.h... -------------------- yes
 
-"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
+"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -331,7 +331,7 @@ checked program was:
 
 have_const: checking for SSL_MODE_REQUIRED in mysql.h... -------------------- yes
 
-"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
+"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -347,7 +347,7 @@ checked program was:
 
 have_const: checking for SSL_MODE_VERIFY_CA in mysql.h... -------------------- yes
 
-"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
+"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -363,7 +363,7 @@ checked program was:
 
 have_const: checking for SSL_MODE_VERIFY_IDENTITY in mysql.h... -------------------- yes
 
-"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
+"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -379,7 +379,7 @@ checked program was:
 
 have_struct_member: checking for MYSQL.net.vio in mysql.h... -------------------- yes
 
-"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -398,14 +398,14 @@ checked program was:
 
 have_struct_member: checking for MYSQL.net.pvio in mysql.h... -------------------- no
 
-"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
-conftest.c:6:35: error: no member named 'pvio' in 'struct st_net'; did you mean 'vio'?
+"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+conftest.c:6:35: error: no member named 'pvio' in 'struct NET'; did you mean 'vio'?
 int s = (char *)&((MYSQL*)0)->net.pvio - (char *)0;
                                   ^~~~
                                   vio
-/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql_com.h:333:8: note: 'vio' declared here
-  Vio *vio;
-       ^
+/usr/local/Cellar/mysql/8.0.12/include/mysql/mysql_com.h:828:13: note: 'vio' declared here
+  MYSQL_VIO vio;
+            ^
 1 error generated.
 checked program was:
 /* begin */
@@ -425,7 +425,7 @@ checked program was:
 
 have_const: checking for MYSQL_ENABLE_CLEARTEXT_PLUGIN in mysql.h... -------------------- yes
 
-"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
+"clang -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT   -c conftest.c"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -439,7 +439,7 @@ checked program was:
 
 --------------------
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Weverything -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Weverything -lpthread -ldl -lobjc "
 In file included from conftest.c:1:
 In file included from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby.h:33:
 In file included from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/ruby.h:24:
@@ -551,7 +551,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-bad-function-cast -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-bad-function-cast -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -559,7 +561,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-conditional-uninitialized -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-conditional-uninitialized -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -567,7 +571,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-covered-switch-default -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-covered-switch-default -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -575,7 +581,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-declaration-after-statement -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-declaration-after-statement -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -583,7 +591,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-disabled-macro-expansion -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-disabled-macro-expansion -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -591,7 +601,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-documentation-unknown-command -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-documentation-unknown-command -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -599,7 +611,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-missing-field-initializers -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-missing-field-initializers -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -607,7 +621,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-missing-variable-declarations -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-missing-variable-declarations -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -615,7 +631,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-padded -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-padded -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -623,7 +641,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-reserved-id-macro -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-reserved-id-macro -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -631,7 +651,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-sign-conversion -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-sign-conversion -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -639,7 +661,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-static-in-inline -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-static-in-inline -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -647,7 +671,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-switch-enum -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-switch-enum -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -655,7 +681,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-undef -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-undef -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -663,7 +691,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-unreachable-code -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-unreachable-code -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -671,7 +701,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-used-but-marked-unused -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation -Werror -Wno-used-but-marked-unused -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -679,7 +711,9 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/5.7.21/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT -Wno-bad-function-cast -Wno-conditional-uninitialized -Wno-covered-switch-default -Wno-declaration-after-statement -Wno-disabled-macro-expansion -Wno-documentation-unknown-command -Wno-missing-field-initializers -Wno-missing-variable-declarations -Wno-padded -Wno-reserved-id-macro -Wno-sign-conversion -Wno-static-in-inline -Wno-switch-enum -Wno-undef -Wno-unreachable-code -Wno-used-but-marked-unused conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/5.7.21/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation  -Wl,-rpath,/usr/local/Cellar/mysql/5.7.21/lib -lpthread -ldl -lobjc "
+"clang -o conftest -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/x86_64-darwin17 -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0/ruby/backward -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include/ruby-2.5.0 -I. -I/usr/local/Cellar/mysql/8.0.12/include/mysql -I/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -DFULL_SSL_MODE_SUPPORT  conftest.c  -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib -L. -L/Users/yamamotoyasuhiro/.rbenv/versions/2.5.0/lib  -fstack-protector -L/usr/local/lib    -L/usr/local/Cellar/mysql/8.0.12/lib -lmysqlclient -lssl -lcrypto  -lruby.2.5.0-static -framework Foundation  -Wl,-rpath,/usr/local/Cellar/mysql/8.0.12/lib -lpthread -ldl -lobjc "
+ld: library not found for -lssl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
 /* begin */
 1: #include "ruby.h"
