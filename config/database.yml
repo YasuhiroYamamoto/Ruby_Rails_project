@@ -49,6 +49,9 @@ test:
 #
 production:
   <<: *default
-  database: Web_dev
-  username: root
-  password: Tomoe@@1210
+  adapter: postgresql
+  encoding: unicode
+  database: db/production.postgresql
+  pool: 5
+  username: Web_dev
+  password:
