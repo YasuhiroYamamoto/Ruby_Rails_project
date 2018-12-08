@@ -19,4 +19,5 @@ Rails.application.config.assets.precompile += %w(
         sessions.scss
         settings.scss
         tweets.scss
+        users.scss
 )

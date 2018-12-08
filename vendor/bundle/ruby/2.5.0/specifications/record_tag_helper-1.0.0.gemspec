@@ -13,10 +13,10 @@ Gem::Specification.new do |s|
   s.email = "david@loudthinking.com".freeze
   s.homepage = "https://github.com/rails/record_tag_helper".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "2.7.3".freeze
+  s.rubygems_version = "2.7.7".freeze
   s.summary = "ActionView Record Tag Helpers".freeze
 
-  s.installed_by_version = "2.7.3" if s.respond_to? :installed_by_version
+  s.installed_by_version = "2.7.7" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

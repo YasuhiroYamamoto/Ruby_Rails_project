@@ -3,13 +3,24 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap";
 
+
 #tweets-content {
-  .left-content {
+  width: 100%;
+  max-width: 100%;
+  height: 1080px;
+  max-height: 100%;
+  background-color: #1111;
+  .left-content.border {
+      background-color: white;
+      margin-top: 20px;
+      height: 270px;
     .panel {
       box-shadow: none;
       border-bottom-width: 3px;
+    .panel-body {
 
       .user {
+        padding-left:10px;
         .user-name {
           font-size: 20px;
           font-weight: 600;
@@ -17,7 +28,7 @@
         }
 
         .user-id {
-          color: #aaa;
+          color: #ddd;
         }
 
         &:hover {
@@ -25,13 +36,12 @@
           border-bottom: 1px solid #555;
         }
       }
-
+    }
       .user-activity {
         text-align: center;
-
         .row {
-          border-bottom: 1px solid #ddd;
           padding: 10px 0px;
+          border-bottom: 1px solid #ddd;
 
           .text {
             font-size: 12px;
@@ -43,7 +53,10 @@
           }
         }
       }
-
+      .form-group{
+        padding-left: 10px;
+        padding-right: 10px;
+      }
       .new_tweet {
         margin-top: 20px;
 
@@ -52,12 +65,18 @@
         }
 
         .btn {
+          margin-top: 20px;
           width: 100%;
         }
       }
     }
   }
+
   .right-content {
+
+    .list-group {
+      margin-top: 20px;
+    }
     .list-group-item:last-child {
       border-bottom-width: 3px;
     }

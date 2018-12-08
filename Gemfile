@@ -32,6 +32,8 @@ gem 'jquery-ui-rails'
 
 gem 'test-unit'
 
+gem 'rubocop', require: false
+
 #gem 'popper_js', '~> 1.12', '>= 1.12.9'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

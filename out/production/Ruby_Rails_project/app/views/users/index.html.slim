@@ -1,35 +1,13 @@
 .container-fluid
   .row
-    .col-lg-8#users-content
+    .col-lg-10#users-content.border
       .list-group
         h2 ユーザー一覧
         = div_for @users, class: "list-group-item" do |u|
-          .list-group-item.user-list
-          h4.user
+          h4.user.user-list
             span.user-name
               = link_to render_user_screen_name(u), user_path(u)
             span.user-id  @#{u.name}
 
           .bio
           = u.bio
-
-
-
-
-
-
-
-
-
-
-/h1  Listing Users
-/
-/table
-/  thead
-/    tr
-/      th
-/
-/  tbody
-/    - @users.each do |user|
-/      tr
-/        td= link_to  user.name ,user
