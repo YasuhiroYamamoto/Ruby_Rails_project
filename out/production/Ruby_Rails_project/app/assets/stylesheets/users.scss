@@ -1,0 +1,123 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ * require は使わない
+ *  require_tree .
+ *  require_self
+ */
+@import "bootstrap";
+
+.clear {
+  clear: both;
+}
+
+.container-fluid {
+
+  .row {
+    width: 100%;
+    max-width: 100%;
+    height: 1080px;
+    max-height: 100%;
+    background-color: #1111;
+    #users-content {
+
+
+      float: none;
+      margin-top: 15px;
+      margin-left: 130px;
+      margin-right: 130px;
+      padding: 0px;
+      background-color: #fff;
+      height: 154px;
+
+      .list-group {
+        margin-top: 10px;
+        margin-bottom: -1px;
+        .list-group-item {
+          margin-bottom: 0px;
+          padding-top: 24px;
+          padding-bottom: 24px;
+          &:last-child {
+          }
+
+          .user {
+            .user-name {
+              a {
+                color: #555;
+              }
+            }
+
+            .user-id {
+              font-size: 14px;
+              color: #aaa;
+              font-weight: 400;
+            }
+
+            .time {
+              font-size: 12px;
+              color: #aaa;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  h2 {
+    font-size: 25px;
+    height: 40px;
+    margin: 10px;
+  }
+
+  .user-info {
+    padding: 20px 35px;
+
+    .user-name {
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    .user-id {
+      font-size: 18px;
+      color: #aaa;
+    }
+
+    .bio {
+      margin-top: 5px;
+    }
+  }
+
+  .nav.nav-tabs.nav-justified {
+    border-top: 1px solid #ddd;
+    border-bottom: 0px solid #ddd;
+
+    li {
+      a {
+        border: none;
+
+        &:hover {
+          background-color: #fff;
+        }
+
+        .text {}
+        .num {
+          font-size: 28px;
+
+        }
+      }
+    }
+  }
+}
+.navbar-right{
+  padding-right: 10px;
+}

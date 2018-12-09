@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RubyRailsProject</title>
+    <%= stylesheet_link_tag    'users', :debug => true , media: 'all', 'data-turbolinks-track': 'reload'%>
+    <%= javascript_include_tag 'application', :debug => true , 'data-turbolinks-track': 'reload' %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body id="application">
+    <div>
+      <%= render partial: "layouts/header" %>
+      <%= yield %>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+current directory: /Users/yamamotoyasuhiro/Documents/workspace/Ruby_Rails_project/vendor/cache/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+/Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20181028-22394-1i78u60.rb extconf.rb
+/Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/spec_set.rb:91:in `block in materialize': Could not find bindex-0.5.0 in any of the sources (Bundler::GemNotFound)
+	from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/spec_set.rb:85:in `map!'
+	from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/spec_set.rb:85:in `materialize'
+	from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/definition.rb:170:in `specs'
+	from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/definition.rb:237:in `specs_for'
+	from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/definition.rb:226:in `requested_specs'
+	from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/runtime.rb:108:in `block in definition_method'
+	from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/runtime.rb:20:in `setup'
+	from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler.rb:107:in `setup'
+	from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/setup.rb:20:in `<top (required)>'
+	from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /Users/yamamotoyasuhiro/.rbenv/versions/2.5.3/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+
+extconf failed, exit code 1
