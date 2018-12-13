@@ -15,7 +15,7 @@ group  :development, :test do
 end
 
 group :production do
-  gem 'pg', group: :production
+  gem 'pg'
 end
 
 # Use Puma as the app server
